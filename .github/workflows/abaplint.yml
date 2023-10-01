@@ -7,18 +7,27 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
      all: ${{steps.changes.outputs.all}}
+     current: ${{steps.getbranchname.outputs.current}}
     steps:
-      - name: Checkout (fetch last two commits) of the PR
+      - name: Checkout
         uses: actions/checkout@v3
         with:
           ref: ${{ github.event.pull_request.head.sha }}
-          fetch-depth: 2
+          fetch-depth: 0
+      - name: Get Current Branch name
+        id: getbranchname
+        run: |
+          {
+            echo 'current<<EOF'
+            echo $(git branch --show-current)
+            echo EOF
+          } >> "$GITHUB_OUTPUT"
       - name: Get changed files
         id: changes
         run: |
           {
             echo 'all<<EOF'
-            echo $(git diff --name-only HEAD^)
+            echo $(git diff --name-only ${{steps.getbranchname.outputs.current}}..origin/main --)
             echo EOF
           } >> "$GITHUB_OUTPUT"
       - name: abaplint
