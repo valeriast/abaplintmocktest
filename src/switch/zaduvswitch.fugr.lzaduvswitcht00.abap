@@ -2,7 +2,7 @@
 *    view related data declarations
 *---------------------------------------------------------------------*
 *...processing: ZADUVSWITCH.....................................*
-TABLES: ZADUVSWITCH, *ZADUVSWITCH. "view work areas
+TABLES: ZADUVSWITCH, *ZADUVSWITCH.
 CONTROLS: TCTRL_ZADUVSWITCH
 TYPE TABLEVIEW USING SCREEN '0100'.
 DATA: BEGIN OF STATUS_ZADUVSWITCH. "state vector
