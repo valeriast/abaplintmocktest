@@ -10,7 +10,6 @@ CLASS zcl_adu_email DEFINITION
     CLASS-METHODS get_instance
       RETURNING
         VALUE(result) TYPE REF TO zif_adu_email.
-
   PROTECTED SECTION.
 
   PRIVATE SECTION.
