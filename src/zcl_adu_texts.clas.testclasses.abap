@@ -7,8 +7,6 @@ CLASS ltcl_itf DEFINITION FINAL
     METHODS itf_to_string FOR TESTING.
 
 ENDCLASS.
-
-
 CLASS ltcl_itf IMPLEMENTATION.
 
 
