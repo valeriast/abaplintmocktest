@@ -47,5 +47,4 @@ CLASS ltcl_structure_test IMPLEMENTATION.
 
   ENDMETHOD.
 
-
 ENDCLASS.
