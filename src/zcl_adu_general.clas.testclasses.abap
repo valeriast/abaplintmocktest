@@ -27,7 +27,6 @@ CLASS ltcl_structure_test IMPLEMENTATION.
 
   ENDMETHOD.
 
-
   METHOD components_from_complex_struc.
 
     DATA:
