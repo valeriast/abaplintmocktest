@@ -45,5 +45,6 @@ CLASS ltcl_structure_test IMPLEMENTATION.
                                         exp = 16 ).
 
   ENDMETHOD.
+
   
 ENDCLASS.
