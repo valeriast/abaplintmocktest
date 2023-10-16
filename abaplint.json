@@ -1,0 +1,634 @@
+{
+  "global": {
+    "files": "{/src/test/file1.clas.abap,/src/file2.ddls.asddls,/src/test2/file4.clas.testclasses.abap}",
+    "exclude": [],
+    "noIssues": [],
+    "skipGeneratedGatewayClasses": true,
+    "skipGeneratedPersistentClasses": true,
+    "skipGeneratedFunctionGroups": true
+  },
+  "syntax": {
+    "version": "v757",
+    "errorNamespace": "",
+    "globalConstants": [],
+    "globalMacros": []
+  },
+  "rules": {
+    "abapdoc": {
+      "severity": "Warning",
+      "checkLocal": false,
+      "classDefinition": true,
+      "interfaceDefinition": true
+    },
+    "align_parameters": {
+      "severity": "Warning"
+    },
+    "avoid_use": {
+      "severity": "Warning",
+      "skipQuickFix": false,
+      "define": true,
+      "statics": true,
+      "defaultKey": true,
+      "break": true,
+      "testSeams": true,
+      "describeLines": true,
+      "exportToMemory": true,
+      "exportToDatabase": true
+    },
+    "ambiguous_statement": {
+      "severity": "Warning"
+    },
+    "begin_end_names": {
+      "severity": "Warning"
+    },
+    "begin_single_include": {
+      "severity": "Warning"
+    },
+    "call_transaction_authority_check": {
+      "severity": "Warning"
+    },
+    "cds_comment_style": {
+      "severity": "Warning"
+    },
+    "cds_legacy_view": {
+      "severity": "Warning"
+    },
+    "cds_parser_error": {
+      "severity": "Warning"
+    },
+    "chain_mainly_declarations": {
+      "severity": "Warning",
+      "definitions": true,
+      "write": true,
+      "move": true,
+      "refresh": true,
+      "unassign": true,
+      "clear": true,
+      "hide": true,
+      "free": true,
+      "include": true,
+      "check": true,
+      "sort": true
+    },
+    "change_if_to_case": {
+      "severity": "Warning"
+    },
+    "check_abstract": {
+      "severity": "Warning"
+    },
+    "check_comments": {
+      "severity": "Warning",
+      "allowEndOfLine": false
+    },
+    "check_ddic": {
+      "severity": "Warning"
+    },
+    "check_include": {
+      "severity": "Warning"
+    },
+    "check_subrc": {
+      "severity": "Warning",
+      "openDataset": true,
+      "authorityCheck": true,
+      "selectSingle": true,
+      "selectTable": true,
+      "updateDatabase": true,
+      "insertDatabase": true,
+      "modifyDatabase": true,
+      "readTable": true,
+      "assign": true,
+      "find": true
+    },
+    "check_syntax": {
+      "severity": "Warning"
+    },
+    "check_text_elements": {
+      "severity": "Warning"
+    },
+    "check_transformation_exists": {
+      "severity": "Warning"
+    },
+    "classic_exceptions_overlap": {
+      "severity": "Warning"
+    },
+    "cloud_types": {
+      "severity": "Warning"
+    },
+    "colon_missing_space": {
+      "severity": "Warning"
+    },
+    "commented_code": {
+      "severity": "Warning",
+      "allowIncludeInFugr": true
+    },
+    "constructor_visibility_public": {
+      "severity": "Warning"
+    },
+    "contains_tab": {
+      "severity": "Warning",
+      "spaces": 1
+    },
+    "cyclic_oo": {
+      "severity": "Warning",
+      "skip": [],
+      "skipSharedMemory": true,
+      "skipTestclasses": true
+    },
+    "cyclomatic_complexity": {
+      "severity": "Warning",
+      "max": 20
+    },
+    "dangerous_statement": {
+      "severity": "Warning",
+      "execSQL": true,
+      "kernelCall": true,
+      "systemCall": true,
+      "insertReport": true,
+      "generateDynpro": true,
+      "generateReport": true,
+      "generateSubroutine": true,
+      "deleteReport": true,
+      "deleteTextpool": true,
+      "deleteDynpro": true,
+      "exportDynpro": true,
+      "dynamicSQL": true
+    },
+    "db_operation_in_loop": {
+      "severity": "Warning"
+    },
+    "definitions_top": {
+      "severity": "Warning"
+    },
+    "double_space": {
+      "severity": "Warning",
+      "keywords": true,
+      "startParen": true,
+      "endParen": true,
+      "afterColon": true
+    },
+    "easy_to_find_messages": {
+      "severity": "Warning"
+    },
+    "empty_line_in_statement": {
+      "severity": "Warning",
+      "allowChained": false
+    },
+    "empty_statement": {
+      "severity": "Warning"
+    },
+    "empty_structure": {
+      "severity": "Warning",
+      "loop": true,
+      "if": true,
+      "while": true,
+      "case": true,
+      "select": true,
+      "do": true,
+      "at": true,
+      "try": true,
+      "when": true
+    },
+    "exit_or_check": {
+      "severity": "Warning",
+      "allowExit": false,
+      "allowCheck": false
+    },
+    "exporting": {
+      "severity": "Warning"
+    },
+    "forbidden_void_type": {
+      "severity": "Warning",
+      "check": []
+    },
+    "form_tables_obsolete": {
+      "severity": "Warning"
+    },
+    "fully_type_constants": {
+      "severity": "Warning",
+      "checkData": true
+    },
+    "fully_type_itabs": {
+      "severity": "Warning"
+    },
+    "functional_writing": {
+      "severity": "Warning",
+      "ignoreExceptions": true
+    },
+    "global_class": {
+      "severity": "Warning"
+    },
+    "identical_conditions": {
+      "severity": "Warning"
+    },
+    "identical_contents": {
+      "severity": "Warning"
+    },
+    "identical_descriptions": {
+      "severity": "Warning"
+    },
+    "if_in_if": {
+      "severity": "Warning"
+    },
+    "implement_methods": {
+      "severity": "Warning"
+    },
+    "in_statement_indentation": {
+      "severity": "Warning",
+      "blockStatements": 2,
+      "ignoreExceptions": true
+    },
+    "indentation": {
+      "severity": "Warning",
+      "ignoreExceptions": true,
+      "alignTryCatch": true,
+      "selectionScreenBlockIndentation": false,
+      "globalClassSkipFirst": false,
+      "ignoreGlobalClassDefinition": false,
+      "ignoreGlobalInterface": false
+    },
+    "inline_data_old_versions": {
+      "severity": "Warning"
+    },
+    "intf_referencing_clas": {
+      "severity": "Warning",
+      "allow": []
+    },
+    "keep_single_parameter_on_one_line": {
+      "severity": "Warning",
+      "length": 120
+    },
+    "keyword_case": {
+      "severity": "Warning",
+      "style": "upper",
+      "ignoreExceptions": true,
+      "ignoreLowerClassImplmentationStatement": true,
+      "ignoreGlobalClassDefinition": false,
+      "ignoreGlobalInterface": false,
+      "ignoreFunctionModuleName": false,
+      "ignoreGlobalClassBoundaries": false,
+      "ignoreKeywords": []
+    },
+    "line_break_multiple_parameters": {
+      "severity": "Warning",
+      "count": 1
+    },
+    "line_break_style": {
+      "severity": "Warning"
+    },
+    "line_length": {
+      "severity": "Warning",
+      "length": 120
+    },
+    "line_only_punc": {
+      "severity": "Warning",
+      "ignoreExceptions": true
+    },
+    "local_class_naming": {
+      "severity": "Warning",
+      "patternKind": "required",
+      "local": "^LCL_.+$",
+      "exception": "^LCX_.+$",
+      "test": "^LTC_.+$"
+    },
+    "local_testclass_consistency": {
+      "severity": "Warning"
+    },
+    "main_file_contents": {
+      "severity": "Warning"
+    },
+    "many_parentheses": {
+      "severity": "Warning"
+    },
+    "max_one_method_parameter_per_line": {
+      "severity": "Warning"
+    },
+    "max_one_statement": {
+      "severity": "Warning"
+    },
+    "message_exists": {
+      "severity": "Warning",
+      "checkPlaceholders": true
+    },
+    "method_implemented_twice": {
+      "severity": "Warning"
+    },
+    "method_length": {
+      "severity": "Warning",
+      "statements": 100,
+      "errorWhenEmpty": true,
+      "ignoreTestClasses": false,
+      "checkForms": true
+    },
+    "method_overwrites_builtin": {
+      "severity": "Warning"
+    },
+    "method_parameter_names": {
+      "severity": "Warning",
+      "patternKind": "required",
+      "ignoreNames": [],
+      "ignorePatterns": [],
+      "ignoreExceptions": true,
+      "importing": "^I_.+$",
+      "returning": "^RESULT+$",
+      "changing": "^C_.+$",
+      "exporting": "^E_.+$"
+    },
+    "mix_returning": {
+      "severity": "Warning"
+    },
+    "msag_consistency": {
+      "severity": "Warning"
+    },
+    "names_no_dash": {
+      "severity": "Warning"
+    },
+    "nesting": {
+      "severity": "Warning",
+      "depth": 5
+    },
+    "newline_between_methods": {
+      "severity": "Warning",
+      "count": 3,
+      "logic": "less"
+    },
+    "no_aliases": {
+      "severity": "Warning"
+    },
+    "no_chained_assignment": {
+      "severity": "Warning"
+    },
+    "no_external_form_calls": {
+      "severity": "Warning"
+    },
+    "no_inline_in_optional_branches": {
+      "severity": "Warning"
+    },
+    "no_public_attributes": {
+      "severity": "Warning",
+      "allowReadOnly": false,
+      "ignoreTestClasses": false
+    },
+    "no_yoda_conditions": {
+      "severity": "Warning",
+      "onlyConstants": false
+    },
+    "nrob_consistency": {
+      "severity": "Warning"
+    },
+    "object_naming": {
+      "severity": "Warning",
+      "clas": "^(C(L|X)_FIAR)|TC_|TD_",
+      "intf": "^IF_FIAR",
+      "prog": "^RPFIGLAR|R_FIAR",
+      "fugr": "^FIAR_",
+      "tabl": "^FIART_",
+      "ttyp": "^FIAR_",
+      "dtel": "^FIAR_",
+      "doma": "^FIAR_",
+      "msag": "^FIAR_",
+      "tran": "^FIAR_",
+      "enqu": "^FIAR_",
+      "shlp": "^FIAR_",
+      "sxci": "^FIAR_",
+      "enhs": "^FIAR_",
+      "sfpf": "^FIAR_",
+      "sfpi": "^FIAR_"
+    },
+    "obsolete_statement": {
+      "severity": "Warning",
+      "refresh": true,
+      "compute": true,
+      "add": true,
+      "subtract": true,
+      "multiply": true,
+      "divide": true,
+      "move": true,
+      "requested": true,
+      "occurs": true,
+      "setExtended": true,
+      "withHeaderLine": true,
+      "fieldSymbolStructure": true,
+      "typePools": true,
+      "load": true,
+      "parameter": true,
+      "ranges": true,
+      "communication": true,
+      "pack": true,
+      "selectWithoutInto": true,
+      "freeMemory": true,
+      "exitFromSQL": true,
+      "sortByFS": true,
+      "callTransformation": true,
+      "regex": true,
+      "occurences": true,
+      "clientSpecified": true,
+      "formDefinition": true,
+      "formImplementation": true
+    },
+    "omit_parameter_name": {
+      "severity": "Warning"
+    },
+    "omit_preceding_zeros": {
+      "severity": "Warning"
+    },
+    "omit_receiving": {
+      "severity": "Warning"
+    },
+    "parser_702_chaining": {
+      "severity": "Warning"
+    },
+    "parser_error": {
+      "severity": "Warning"
+    },
+    "parser_missing_space": {
+      "severity": "Warning"
+    },
+    "pragma_style": {
+      "severity": "Warning",
+      "style": "upper"
+    },
+    "prefer_corresponding": {
+      "severity": "Warning"
+    },
+    "prefer_inline": {
+      "severity": "Warning"
+    },
+    "prefer_is_not": {
+      "severity": "Warning"
+    },
+    "prefer_raise_exception_new": {
+      "severity": "Warning"
+    },
+    "prefer_returning_to_exporting": {
+      "severity": "Warning"
+    },
+    "prefer_xsdbool": {
+      "severity": "Warning"
+    },
+    "preferred_compare_operator": {
+      "exclude": [],
+      "severity": "Warning",
+      "badOperators": [
+        "EQ",
+        "><",
+        "NE",
+        "GE",
+        "GT",
+        "LT",
+        "LE"
+      ]
+    },
+    "prefix_is_current_class": {
+      "severity": "Warning",
+      "omitMeInstanceCalls": true
+    },
+    "reduce_string_templates": {
+      "severity": "Warning"
+    },
+    "release_idoc": {
+      "severity": "Warning"
+    },
+    "remove_descriptions": {
+      "severity": "Warning",
+      "ignoreExceptions": false,
+      "ignoreWorkflow": true
+    },
+    "rfc_error_handling": {
+      "severity": "Warning"
+    },
+    "select_add_order_by": {
+      "severity": "Warning"
+    },
+    "select_performance": {
+      "severity": "Warning",
+      "endSelect": true,
+      "selectStar": true,
+      "starOkayIfFewColumns": 10
+    },
+    "select_single_full_key": {
+      "severity": "Warning",
+      "allowPseudo": true
+    },
+    "selection_screen_naming": {
+      "severity": "Warning",
+      "patternKind": "required",
+      "ignoreNames": [],
+      "ignorePatterns": [],
+      "parameter": "^P_.+$",
+      "selectOption": "^S_.+$",
+      "screenElement": "^SC_.+$"
+    },
+    "sequential_blank": {
+      "severity": "Warning",
+      "lines": 4
+    },
+    "short_case": {
+      "severity": "Warning",
+      "length": 1,
+      "allow": []
+    },
+    "sicf_consistency": {
+      "severity": "Warning"
+    },
+    "slow_parameter_passing": {
+      "severity": "Warning"
+    },
+    "smim_consistency": {
+      "severity": "Warning"
+    },
+    "space_before_colon": {
+      "severity": "Warning"
+    },
+    "space_before_dot": {
+      "severity": "Warning",
+      "ignoreGlobalDefinition": true,
+      "ignoreExceptions": true
+    },
+    "sql_escape_host_variables": {
+      "severity": "Warning"
+    },
+    "sql_value_conversion": {
+      "severity": "Warning"
+    },
+    "start_at_tab": {
+      "severity": "Warning"
+    },
+    "static_call_via_instance": {
+      "severity": "Warning",
+      "allowInTestclassIncludes": false
+    },
+    "strict_sql": {
+      "severity": "Warning"
+    },
+    "superclass_final": {
+      "severity": "Warning"
+    },
+    "superfluous_value": {
+      "severity": "Warning"
+    },
+    "sy_modification": {
+      "severity": "Warning"
+    },
+    "tabl_enhancement_category": {
+      "severity": "Warning"
+    },
+    "try_without_catch": {
+      "severity": "Warning"
+    },
+    "type_form_parameters": {
+      "severity": "Warning"
+    },
+    "uncaught_exception": {
+      "severity": "Warning",
+      "reportDynamic": false,
+      "reportNoCheck": false
+    },
+    "unknown_types": {
+      "severity": "Warning"
+    },
+    "unnecessary_chaining": {
+      "severity": "Warning"
+    },
+    "unnecessary_pragma": {
+      "severity": "Warning",
+      "allowNoTextGlobal": false
+    },
+    "unnecessary_return": {
+      "severity": "Warning"
+    },
+    "unreachable_code": {
+      "severity": "Warning"
+    },
+    "unsecure_fae": {
+      "severity": "Warning"
+    },
+    "unused_ddic": {
+      "severity": "Warning"
+    },
+    "unused_variables": {
+      "severity": "Warning"
+    },
+    "use_bool_expression": {
+      "severity": "Warning"
+    },
+    "use_class_based_exceptions": {
+      "severity": "Warning"
+    },
+    "use_line_exists": {
+      "severity": "Warning"
+    },
+    "use_new": {
+      "severity": "Warning"
+    },
+    "when_others_last": {
+      "severity": "Warning"
+    },
+    "whitespace_end": {
+      "severity": "Warning"
+    },
+    "xml_consistency": {
+      "exclude": [],
+      "severity": "Error"
+    }
+  }
+}
