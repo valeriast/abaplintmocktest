@@ -17,7 +17,6 @@ ENDCLASS.
 
 CLASS ltcl_system_messages IMPLEMENTATION.
 
-
   METHOD without_message.
 
     NEW zcl_adu_messages( )->add_exception( NEW zcx_adu_messages( ) ).
