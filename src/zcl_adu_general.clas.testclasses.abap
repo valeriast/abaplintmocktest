@@ -23,6 +23,7 @@ CLASS ltcl_structure_test IMPLEMENTATION.
     cl_abap_unit_assert=>assert_equals( act = lines( components )
                                         exp = 14 ).
 
+
   ENDMETHOD.
 
   METHOD components_from_complex_struc.
