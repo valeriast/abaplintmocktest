@@ -10,7 +10,6 @@ CLASS ltcl_pack DEFINITION FINAL
     METHODS with_size_2_pack FOR TESTING RAISING zcx_adu_messages.
 
 ENDCLASS.
-
 CLASS ltcl_pack IMPLEMENTATION.
 
   METHOD empty_table.
