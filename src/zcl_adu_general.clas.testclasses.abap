@@ -13,7 +13,6 @@ CLASS ltcl_structure_test DEFINITION FINAL
       RAISING zcx_adu_messages.
 ENDCLASS.
 
-
 CLASS ltcl_structure_test IMPLEMENTATION.
 
   METHOD components_from_simple_struc.
