@@ -12,6 +12,7 @@ CLASS ltcl_system_messages DEFINITION FINAL
     METHODS without_message FOR TESTING
       RAISING zcx_adu_messages.
 
+
 ENDCLASS.
 CLASS ltcl_system_messages IMPLEMENTATION.
 
