@@ -14,7 +14,6 @@ CLASS ltcl_system_messages DEFINITION FINAL
 
 ENDCLASS.
 
-
 CLASS ltcl_system_messages IMPLEMENTATION.
 
   METHOD without_message.
