@@ -11,7 +11,6 @@ ENDCLASS.
 
 CLASS ltcl_itf IMPLEMENTATION.
 
-
   METHOD itf_to_string.
 
     DATA(lv_expected) =
