@@ -16,7 +16,6 @@ ENDCLASS.
 
 CLASS ltcl_structure_test IMPLEMENTATION.
 
-
   METHOD components_from_simple_struc.
 
     DATA(utility) = zcl_adu_general=>get_instance( ).
