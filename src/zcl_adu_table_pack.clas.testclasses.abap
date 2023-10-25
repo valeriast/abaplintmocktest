@@ -13,7 +13,6 @@ ENDCLASS.
 
 CLASS ltcl_pack IMPLEMENTATION.
 
-
   METHOD empty_table.
 
     DATA(lt_int) = VALUE int4_table( ).
