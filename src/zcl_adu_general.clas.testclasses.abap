@@ -13,7 +13,6 @@ CLASS ltcl_structure_test DEFINITION FINAL
 ENDCLASS.
 
 
-
 CLASS ltcl_structure_test IMPLEMENTATION.
 
   METHOD components_from_simple_struc.
