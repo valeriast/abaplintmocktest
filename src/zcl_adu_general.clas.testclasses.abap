@@ -4,6 +4,7 @@ CLASS ltcl_structure_test DEFINITION FINAL
   DURATION SHORT.
 
   PUBLIC SECTION.
+
   PRIVATE SECTION.
     METHODS components_from_simple_struc FOR TESTING
       RAISING zcx_adu_messages.
